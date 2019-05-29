@@ -3,8 +3,8 @@ venv
 app/media/*
 app/files/*
 app/**/__pycache__/
-app/*/migrations/*.py
-!app/*/migrations/__init__.py
+app/*/**/migrations/*.py
+!app/*/**/migrations/__init__.py
 
 !files/media
 !files/static
